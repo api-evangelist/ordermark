@@ -1,7 +1,27 @@
 aid: ordermark
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/ordermark.png
 name: Ordermark
-description: Ordermark is a company surfaced as a portfolio company of techstars and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Ordermark is a restaurant technology company that consolidates online food
+  delivery and takeout orders from third-party channels such as DoorDash, Uber
+  Eats, Grubhub, and Postmates into a single dashboard and printer, with menu
+  synchronization, order management, and analytics across delivery partners and
+  250+ POS systems. Ordermark was acquired by and now operates under UrbanPiper;
+  the ordermark.com property is maintained by UrbanPiper. As of this enrichment
+  pass Ordermark publishes no public developer API, developer portal, API
+  documentation, or SDKs on its own surface. It was surfaced to the API
+  Evangelist network as a Techstars portfolio company lead.
 url: https://raw.githubusercontent.com/api-evangelist/ordermark/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,9 +31,15 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Restaurant Technology
+- Food Delivery
+- Order Management
+- Order Aggregation
+- POS Integration
+- Restaurants
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -21,5 +47,16 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/ordermark-domain-security.yml
 - type: Website
   url: https://ordermark.com/
+- type: PrivacyPolicy
+  url: https://ordermark.com/privacy
+- type: TermsOfService
+  url: https://ordermark.com/terms
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
