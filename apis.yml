@@ -39,6 +39,14 @@ tags:
 - Order Management
 - Order Aggregation
 - POS Integration
+- Restaurant
+tags_raw:
+- Company
+- Restaurant Technology
+- Food Delivery
+- Order Management
+- Order Aggregation
+- POS Integration
 - Restaurants
 apis: []
 maintainers:
