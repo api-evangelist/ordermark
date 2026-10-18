@@ -1,0 +1,30 @@
+generated: '2026-10-18'
+method: searched
+checked:
+- doordash/integrations/doordash-integration-edges.yml
+source:
+- doordash/integrations/doordash-integration-edges.yml
+edges:
+- partner_name: Doordash (own)
+  partner: doordash
+  partner_match: mirror
+  mirror_match: domain
+  type: marketplace
+  relationship: platform-app
+  direction: third-party
+  channel: partner-built
+  marketplace: own
+  evidence: https://merchants.doordash.com/en-us/preferred-integrations/compare-integrations
+  mirror_of: doordash/integrations/doordash-integration-edges.yml
+  apps:
+  - Ordermark DoorDash integration
+  listing_count: 1
+  detected: '2026-10-18'
+  detected_by: mirror-platform-listings.py
+  category: Delivery marketplace integration (POS / middleware)
+  features:
+  - MENU_PULL_SUPPORTED
+  - RECEIVE_ORDER_CANCELLATION
+  - STAFF_TIPS
+  - STORE_AVAILABILITY_WEBHOOKS
+  - STORE_SPECIAL_HOURS
